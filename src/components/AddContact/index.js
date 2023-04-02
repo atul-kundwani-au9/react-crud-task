@@ -8,7 +8,7 @@ const AddPost = ({ contacts, addContact }) => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
 
-  const history = useHistory();
+  const history = useHistory()
 
   const handleSubmit = (e) => {
     e.preventDefault();

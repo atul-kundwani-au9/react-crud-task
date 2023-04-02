@@ -110,8 +110,8 @@ const EditContact = ({ contacts, updateContact }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const mapStateToProps = (state) => ({
   contacts: state,
