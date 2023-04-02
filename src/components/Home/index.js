@@ -64,7 +64,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   deleteContact: (id) => {
-    dispatch({ type: "DELETE_CONTACT", payload: id });
+    dispatch({ type: "DELETE_CONTACT", payload: id })
   },
 });
 
