@@ -17,5 +17,5 @@ const App = () => {
       <Route exact path="/edit/:id" component={() => <EditContact />} />
     </div>
   );
-};
+}
 export default App;
